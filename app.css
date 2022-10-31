@@ -1,13 +1,19 @@
 body {
-    background-color: rgb(192, 208, 226);
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+}
+
+.theCard {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container {
-    display: table-cell;
-    vertical-align: middle;
+.row {
+    height: 100vh;
 }
 
 .card {
@@ -27,8 +33,10 @@ img {
 h1 {
     font-size: 0.95rem;
     font-weight: 600;
+    color: hsl(218, 44%, 22%);
 }
 
 p {
     font-size: 0.7rem;
+    color: hsl(212, 45%, 89%);
 }
